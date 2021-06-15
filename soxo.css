@@ -1,0 +1,30 @@
+.main {
+    margin-top: 20px;
+    margin-left: 100px;
+    background-color: lightblue;
+    height: 200px;
+    width: 400px;
+}
+
+.head {
+    height: 70px;
+    width: 400px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    padding: 10px;
+    /* border-radius: 3px; */
+    margin-left: 50px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 3px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    background-color: lightgreen;
+}
