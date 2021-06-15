@@ -5,11 +5,14 @@ let num
 let machineNum = parseInt(Math.random() * 10)
 console.log(+machineNum);
 
-$btn[i].addEventListener("click", function(e) {
-    console.log($fm.dl.value.trim());
+for (let i = 0; i < 3; i++) {
+    $btn[i].addEventListener("click", function(e) {
+        console.log($fm.dl.value.trim());
+
+
+    })
     $fm.addEventListener("submit", function(e) {
         e.preventDefault();
-        // Truy cap toi input co name la dl
         if ($fm.dl.value.trim() === machineNum) {
             function dudoan(a) {
                 alert(a);
@@ -24,5 +27,4 @@ $btn[i].addEventListener("click", function(e) {
         }
 
     })
-
-})
+}
